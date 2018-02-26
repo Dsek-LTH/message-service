@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tslint --project . && tsc",
     "dev": "tsc && npm start",
+    "install": "tsc",
     "start": "node build/main.js",
     "watch": "nodemon -L -e ts -w src --exec 'npm run dev'"
   },

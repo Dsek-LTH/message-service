@@ -6,7 +6,7 @@ import { graphql, buildSchema } from "graphql";
 
 const schema = buildSchema(`
 type Query {
-  messages: Message[]
+  messages: [Message]
 }
 
 type Message { 
