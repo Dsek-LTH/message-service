@@ -10,31 +10,31 @@ type Query {
 }
 
 type Message { 
-  author: Int,
+  authorId: Int,
   content: String
 }
 `);
 
 interface Message {
-	author: number;
+	authorId: number;
 	content: string;
 }
 
 const messages: Message[] = [
 	{
-		author: 0,
+		authorId: 0,
 		content: "hey guys!"
 	},
 	{
-		author: 1,
+		authorId: 1,
 		content: "what's up?"
 	},
 	{
-		author: 2,
+		authorId: 2,
 		content: "heeeey!"
 	},
 	{
-		author: 0,
+		authorId: 0,
 		content: "this is cool"
 	}
 ];
